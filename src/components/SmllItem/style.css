@@ -1,23 +1,22 @@
-#small{
-    height: 48px;
-    width: 88%;
-    left: 0px;
-    top: 0px;
-    border-radius: 8px;
-    margin: 12px auto;
-    background: rgba(255, 255, 255, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    box-sizing: border-box;
-    border-radius: 8px;
-    
+#small {
+  height: 48px;
+  width: 88%;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  margin: 12px auto;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+  border-radius: 8px;
 }
-#text1{
-    display: inline-block;
-    font-family: PingFang SC;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-align: left;
-    padding: 13px ;
-    font-weight:350;
+#text1 {
+  display: inline-block;
+  font-family: PingFang SC;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: left;
+  padding: 13px;
+  font-weight: 350;
 }

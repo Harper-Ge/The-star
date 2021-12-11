@@ -1,9 +1,12 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.maoboli{
-    backdrop-filter: blur(30px);
-    background: linear-gradient(354.74deg, rgba(230, 230, 230, 0.26) -37.46%, 
-                                rgba(203, 203, 203, 0.064) 101.68%);
+.maoboli {
+  backdrop-filter: blur(30px);
+  background: linear-gradient(
+    354.74deg,
+    rgba(230, 230, 230, 0.26) -37.46%,
+    rgba(203, 203, 203, 0.064) 101.68%
+  );
 }
