@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../../components/Header'
 import Weikaishi from '../../components/Weikaishi'
 import './index.css'
-import Bottom from '../../components/Bottom/index.jsx'
 
 export default class MyActivity extends Component {
     render() {
@@ -22,9 +21,7 @@ export default class MyActivity extends Component {
                             <span className='title'>待评价</span>
                             <Weikaishi/>
                         </div>
-                        <div id='container'>
-                <Bottom/>
-            </div>
+        
                     </div>
                 </div>
             </div>
