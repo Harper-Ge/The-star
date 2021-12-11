@@ -1,9 +1,9 @@
-#none{
-    text-align: center;
-    font-family: PingFang SC;
-    font-size: 15px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 0.8);
-    height: 50px;
-    line-height: 50px;
+#none {
+  text-align: center;
+  font-family: PingFang SC;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  height: 50px;
+  line-height: 50px;
 }
