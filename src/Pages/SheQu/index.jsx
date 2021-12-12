@@ -9,9 +9,11 @@ export default class SheQu extends Component {
     return (
       <div id="shequ">
         <ShequHeader />
-
+        <div id="smallbox2">
         <Bigitem />
         <Bigitem />
+        </div>
+        
         <div id="container">
           <Bottom />
         </div>
