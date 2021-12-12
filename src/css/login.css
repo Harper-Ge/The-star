@@ -1,149 +1,154 @@
-:root {
-  --gray: #333;
-  --blue: #0367a6;
-  --lightblue: #008997;
-  --button-radius: 0.7rem;
-  --max-width: 758px;
-  --max-hight: 620px;
-  font-size: 16px;
-  font-family: "PingFang SC";
+:root{
+  
+    --gray:#333;
+    --blue:#0367a6;
+    --lightblue:#008997;
+    --button-radius:0.7rem;
+    --max-width:758px;
+    --max-hight:620px;
+    font-size: 16px;
+    font-family: "PingFang SC";
 }
-.huiTui {
-  box-sizing: border-box;
-  position: absolute;
-  width: 48px;
-  height: 34px;
-  left: 22px;
-  top: 18px;
-  color: #ffffff;
-  font-family: " PingFang SC";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 34px;
-  text-decoration: none;
+.huiTui{
+    box-sizing: border-box;
+    position: absolute;
+    width: 48px;
+    height: 34px;
+    left: 22px;
+    top: 18px;
+    color: #FFFFFF;
+    font-family:" PingFang SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: none
+    ;
 }
-.backGround-denglu {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url("../img/星社.背景.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
+.backGround-denglu{
+    position : absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/星社.背景.jpg');
+    background-repeat:no-repeat; 
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
 }
-body {
-  align-items: center;
-  background-color: var(--white);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+body{   align-items: center;
+    background-color: var(--white);
+    background-attachment:fixed ;
+    background-position:center ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 100vh;
+   
+   }
+
+.buju-denglu{
+    background-color: #e9e9e9;
+    border-radius: var(--button-radius);
+    box-shadow:0 0.9rem 1.7rem rgba(0, 0, 0, a0.25) ;
+    min-height :300px;
+    max-height: var(--max-hight);
+    max-width: var(--max-width);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    min-width: 300px;
+    background: linear-gradient(337.31deg, rgba(215, 215, 215, 0.4) 2.27%, rgba(215, 215, 215, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    border-radius: 16px;
+ }
+
+ .buju-denglu h1{
+    position: relative;
+    font-family: "PingFang SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 56px;
+    margin-left: 10%;
+    margin-top: 8%;
+    color: #FFFFFF;
 }
 
-.buju-denglu {
-  background-color: #e9e9e9;
-  border-radius: var(--button-radius);
-  box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, a0.25);
-  min-height: 300px;
-  max-height: var(--max-hight);
-  max-width: var(--max-width);
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 90%;
-  min-width: 300px;
-  background: linear-gradient(
-    337.31deg,
-    rgba(215, 215, 215, 0.4) 2.27%,
-    rgba(215, 215, 215, 0) 100%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.buju-denglu h3{
+    position: relative;
+    font-family:'PingFang SC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 10%;
+    margin-top: 9.8%;
+    color: #FFFFFF;
+}
+.shu{
+    color: #FFFFFF;
+    height: 50px;
+    position: absolute;
+    float: left;
+    left: 60%;
+    top: 66.5%;
+    
+    
 
-  border-radius: 16px;
 }
-.buju-denglu h1 {
-  font-family: "PingFang SC";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 56px;
-  margin-left: 10%;
-  opacity: 10%;
-  color: #ffffff;
+ .buju-denglu input{
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 16px;
+    width: 85%;
+    height: 48px;
+ }
+ .btn{ position: absolute;
+      left: 50%;
+	top: 83%;
+	transform: translate(-50%,-20%);
+    background: linear-gradient(98.24deg, #EDD065 -12.66%, #FD5546 50.74%);
+    border-radius: 12px;
+    width: 200px;
+    height: 64px;
+    font-family: "PingFang SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+} 
+.p1{
+    font-family: "PingFang SC";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+margin-left: 16px;
+color: #ffffff;
 }
-.buju-denglu h3 {
-  position: absolute;
-
-  font-family: "PingFang SC";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 34px;
-  margin-left: 10%;
-  margin-top: -15%;
-  color: #ffffff;
-}
-.shu {
-  color: #ffffff;
-  height: 50px;
-  position: absolute;
-  float: left;
-  left: 61%;
-  top: 69%;
-}
-.buju-denglu input {
-  background: rgba(255, 255, 255, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-sizing: border-box;
-  border-radius: 8px;
-  margin-left: 16px;
-  width: 85%;
-  height: 48px;
-}
-.btn {
-  position: absolute;
-  left: 50%;
-  top: 83%;
-  transform: translate(-50%, -20%);
-  background: linear-gradient(98.24deg, #edd065 -12.66%, #fd5546 50.74%);
-  border-radius: 12px;
-  width: 200px;
-  height: 64px;
-  font-family: "PingFang SC";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 34px;
-  color: #ffffff;
-}
-.p1 {
-  font-family: "PingFang SC";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  margin-left: 16px;
-  color: #ffffff;
-}
-.btn:hover {
+.btn:hover{
   border-color: royalblue;
 }
-.btn1 {
-  position: absolute;
-  float: left;
-  left: 210px;
-  background: none;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border: none;
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 45px;
+.btn1{
+    position: absolute;
+    float: left;
+    left: 210px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: none;
+    color:#FFFFFF;
+    font-size: 14px;
+line-height: 45px;
+}
+.gekai{
+    height: 30px;
 }
