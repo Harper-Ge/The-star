@@ -1,11 +1,30 @@
-import * as React from 'react'
-import * as ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
-import Luyou from './Component/luyou'
+import React, { Component } from 'react'
+import Header from '../../components/Header'
+import Weikaishi from '../../components/Weikaishi'
+import './index.css'
 
-ReactDOM.render(
-    <BrowserRouter>
-        <Luyou />
-    </BrowserRouter>,
-    document.getElementById('root')
-)
+export default class MyActivity extends Component {
+    render() {
+        return (
+            <div id='activity'>
+               <Header/>
+                <div id='container1'>
+                    <div id='weikaishi'>
+                        <div>
+                            <span className='title'>未开始</span>
+                            <Weikaishi/>
+                        </div>
+                        
+                    </div>
+                    <div id="daipingjia">
+                        <div>
+                            <span className='title'>待评价</span>
+                            <Weikaishi/>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
